@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/passwortField"
+        android:id="@+id/passwordField"
         android:layout_below="@+id/usernameField"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -37,7 +37,7 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/emailField"
-        android:layout_below="@+id/passwortField"
+        android:layout_below="@+id/passwordField"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:hint="@string/email_hint"/>
@@ -50,4 +50,13 @@
         android:layout_below="@+id/emailField"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
 </RelativeLayout>
