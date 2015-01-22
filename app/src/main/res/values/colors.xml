@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_purple">#705594</color>
+    <color name="light_gray">#bbbbbb</color>
+    <color name="apptheme_color">#705594</color>
+    <color name="light_purple_button">#E1E2F3</color>
+    <color name="pressed_purple_button">#BA9DDA</color>
+    <color name="focused_purple_button">#D6C3ED</color>
+    <color name="text_color">#250054</color>
+    <color name="actionbar_text">@android:color/white</color>
+    <color name="light_purple_background">#E9E4ED</color>
+
+    <color name="swipe_refresh_1">#482C6F</color>
+    <color name="swipe_refresh_2">#AD78D9</color>
+    <color name="swipe_refresh_3">#DCADF4</color>
+    <color name="swipe_refresh_4">#AD78D9</color>
+</resources>
